@@ -5,7 +5,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Scott Harris</title>
+    <title>Uno</title>
 
     <!-- Begin Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -67,9 +67,9 @@
             <ul>
 
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a href="#">Home</a>
                     
-                    <!--<ul>
+                    <ul>
                         <li class="menu-item-has-children">
                             <a href="#">Landing</a>
                             <ul>
@@ -78,15 +78,15 @@
                                 <li><a href="landing-strips-pages.html">Strips Pages</a></li>
                             </ul>
                         </li>
-                        <li><a class="active" href="index.html">Horizontal Slideshow</a></li>
+                        <li><a href="index.html">Horizontal Slideshow</a></li>
                         <li><a href="home-fullscreen-slideshow.html">Fullscreen Slideshow</a></li>
                         <li><a href="home-background-image.html">Background Image</a></li>
                         <li><a href="home-background-video.html">Background Video</a></li>
-                    </ul>-->
+                    </ul>
                 </li>
 
-                <!--<li class="mega-menu four-columns">
-                    <a href="#">Portfolio</a>
+                <li class="mega-menu four-columns">
+                    <a href="#" class="active">Portfolio</a>
                     
                     <ul>
                         <li>
@@ -97,7 +97,7 @@
                                 <li><a href="portfolio-horizontal-scroll.html">Horizontal Scroll</a></li>
                                 <li><a href="portfolio-horizontal-fullscreen.html">Horizontal Fullscreen</a></li>
                                 <li><a href="portfolio-strips-3columns.html">Strips 3 Columns</a></li>
-                                <li><a href="portfolio-strips-4columns.html">Strips 4 Columns</a></li>
+                                <li><a class="active" href="portfolio-strips-4columns.html">Strips 4 Columns</a></li>
                             </ul>
                         </li>
 
@@ -138,10 +138,10 @@
                         </li>
 
                     </ul>
-                </li>-->
+                </li>
 
                 <li class="mega-menu three-columns">
-                    <a href="gallery-grid-3columns.html">Gallery</a>
+                    <a href="#">Gallery</a>
                     
                     <ul>
                         <li>
@@ -184,16 +184,16 @@
                 </li>
 
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Pages</a>
                     
                     <ul>
                         <li><a href="page-aboutme.html">About Me</a></li>
-                        <!--<li><a href="page-aboutus.html">About Us</a></li>-->
+                        <li><a href="page-aboutus.html">About Us</a></li>
                         <li><a href="page-contact.html">Contact Us</a></li>
                     </ul>
                 </li>
 
-                <!--<li>
+                <li>
                     <a href="#">Blog</a>
                     
                     <ul>
@@ -211,7 +211,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li>-->
+                </li>
 
             </ul>
         </nav>
@@ -223,177 +223,135 @@
     <!-- Begin Main -->
     <main>
 
-        <div class="portfolio horizontal-slider centered">
-            <div class="swiper-container" id="swiper-centered-1">
-                <div class="swiper-wrapper">
+        <div class="portfolio horizontal-slider strips" data-columns="4">
+            <div class="articles-wrapper">
 
-                    <article class="swiper-slide">
+                <article style="background-image:url('images/h1.jpg');">
 
-                        <figure>
-                            <img src="images/beach-falls-3.jpg" alt="">
-                        </figure>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Green Housing</h2>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Beach Falls</h2>
+                        <span class="categories">
+                            <span>Architecture</span>
+                        </span>
+                    </a>
 
-                            <span class="categories">
-                                <span>Outdoors</span>
-                            </span>
-                        </a>
+                </article>
 
-                    </article>
+                <article style="background-image:url('images/h2.jpg');">
 
-                    <article class="swiper-slide">
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Central Paris</h2>
 
-                        <figure>
-                            <img src="images/rainier-1.jpg" alt="">
-                        </figure>
+                        <span class="categories">
+                            <span>Street</span>, 
+                            <span>People</span>
+                        </span>
+                    </a>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Rainier</h2>
+                </article>
 
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Dark</span>
-                            </span>
-                        </a>
+                <article style="background-image:url('images/h3.jpg');">
 
-                    </article>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">The Train</h2>
 
-                    <article class="swiper-slide active">
+                        <span class="categories">
+                            <span>Outdoors</span>, 
+                            <span>Dark</span>
+                        </span>
+                    </a>
 
-                        <figure>
-                            <img src="images/waterfall-1.jpg" alt="">
-                        </figure>
+                </article>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Waterfall</h2>
+                <article style="background-image:url('images/h4.jpg');">
 
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Dark</span>
-                            </span>
-                        </a>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Batu Caves</h2>
 
-                    </article>
+                        <span class="categories">
+                            <span>Exploration</span>
+                        </span>
+                    </a>
 
-                    <article class="swiper-slide">
+                </article>
 
-                        <figure>
-                            <img src="images/tree-2.jpg" alt="">
-                        </figure>
+                <article style="background-image:url('images/h5.jpg');">
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Roots</h2>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">London</h2>
 
-                            <span class="categories">
-                                <span>Outdoors</span>
-                            </span>
-                        </a>
+                        <span class="categories">
+                            <span>Outdoors</span>
+                        </span>
+                    </a>
 
-                    </article>
+                </article>
 
-                    <article class="swiper-slide">
+                <article style="background-image:url('images/h6.jpg');">
 
-                        <figure>
-                            <img src="images/baker-lighthouse-1.jpg" alt="">
-                        </figure>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Nevada Deserts</h2>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Dungeness Lighthouse</h2>
+                        <span class="categories">
+                            <span>Hiking</span>
+                        </span>
+                    </a>
 
-                            <span class="categories">
-                                <span>Outdoors</span>
-                            </span>
-                        </a>
+                </article>
 
-                    </article>
+                <article style="background-image:url('images/h7.jpg');">
 
-                    <article class="swiper-slide">
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">The Giants</h2>
 
-                        <figure>
-                            <img src="images/ship-1.jpg" alt="">
-                        </figure>
+                        <span class="categories">
+                            <span>Africa</span>, 
+                            <span>Animals</span>
+                        </span>
+                    </a>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Ship</h2>
+                </article>
 
-                            <span class="categories">
-                                <span>Outdoors</span>
-                            </span>
-                        </a>
+                <article style="background-image:url('images/h8.jpg');">
 
-                    </article>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Hidden Islands</h2>
 
-                    <article class="swiper-slide">
+                        <span class="categories">
+                            <span>Adventure</span>, 
+                            <span>Bali</span>
+                        </span>
+                    </a>
 
-                        <figure>
-                            <img src="images/humpback-1.jpg" alt="">
-                        </figure>
+                </article>
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Humpback</h2>
+                <article style="background-image:url('images/h9.jpg');">
 
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Animals</span>
-                            </span>
-                        </a>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">Lovely Creatures</h2>
 
-                    </article>
+                        <span class="categories">
+                            <span>Africa</span>, 
+                            <span>Animals</span>
+                        </span>
+                    </a>
 
-                    <article class="swiper-slide">
+                </article>
 
-                        <figure>
-                            <img src="images/uintas-1.jpg" alt="">
-                        </figure>
+                <article style="background-image:url('images/h10.jpg');">
 
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Uintas</h2>
+                    <a href="portfolio-single1.html" class="overlay">
+                        <h2 class="title">The Herd</h2>
 
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Dark</span>
-                            </span>
-                        </a>
+                        <span class="categories">
+                            <span>Africa</span>, 
+                            <span>Animals</span>
+                        </span>
+                    </a>
 
-                    </article>
+                </article>
 
-                    <article class="swiper-slide">
-
-                        <figure>
-                            <img src="images/rainier-3.jpg" alt="">
-                        </figure>
-
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Rainier</h2>
-
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Dark</span>
-                            </span>
-                        </a>
-
-                    </article>
-
-                    <article class="swiper-slide">
-
-                        <figure>
-                            <img src="images/leaves-1.jpg" alt="">
-                        </figure>
-
-                        <a href="portfolio-single1.html" class="overlay">
-                            <h2 class="title">Leaves</h2>
-
-                            <span class="categories">
-                                <span>Outdoors</span>, 
-                                <span>Dark</span>
-                            </span>
-                        </a>
-
-                    </article>
-
-                </div>
             </div>
         </div>
 
@@ -403,16 +361,16 @@
     <!-- Begin Footer -->
     <footer>
 
-        <!--<div class="copyrights">
+        <div class="copyrights">
             <p>© Uno 2021 | Made by <a href="https://themeforest.net/user/codesymbol" target="_blank">CodeSymbol</a>.</p>
-        </div>-->
+        </div>
 
-        <div class="social-links icons">
+        <div class="social-links">
             <ul>
-                <!--<li><a href="#" class="icons-facebook"></a></li>-->
-                <!--<li><a href="#" class="icons-twitter"></a></li>-->
+                <li><a href="#" class="icons-facebook"></a></li>
+                <li><a href="#" class="icons-twitter"></a></li>
                 <li><a href="#" class="icons-instagram"></a></li>
-                <!--<li><a href="#" class="icons-behance"></a></li>-->
+                <li><a href="#" class="icons-behance"></a></li>
             </ul>
         </div>
         
