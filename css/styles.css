@@ -448,7 +448,7 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* ---------------------- */
         header {
             position: relative;
-            height: 200px;
+            height: 100px;
         }
         header a {
 
@@ -460,21 +460,21 @@ Author URL: https://themeforest.net/user/codesymbol/
         header .logo {
             position: relative;
             float: left;
-            height: 200px;
-            line-height: 200px;
+            height: 100px;
+            line-height: 100px;
             display: block;
         }
         header .logo a {
             display: inline-block;
-            max-height: 200px;
+            max-height: 100px;
         }
         header .logo img {
-            max-height: 40px;
+            max-height: 50px;
             width: auto;
         }
         header.showNav .logo {
             position: absolute;
-            left: 100px;
+            left: 50px;
             top: 0;
         }
 
