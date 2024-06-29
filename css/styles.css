@@ -460,21 +460,21 @@ Author URL: https://themeforest.net/user/codesymbol/
         header .logo {
             position: relative;
             float: left;
-            height: 100px;
-            line-height: 100px;
+            height: 200px;
+            line-height: 200px;
             display: block;
         }
         header .logo a {
             display: inline-block;
-            max-height: 100px;
+            max-height: 200px;
         }
         header .logo img {
-            max-height: 20px;
+            max-height: 40px;
             width: auto;
         }
         header.showNav .logo {
             position: absolute;
-            left: 50px;
+            left: 100px;
             top: 0;
         }
 
